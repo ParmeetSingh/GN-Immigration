@@ -24,17 +24,17 @@ const Navbar = () => {
           <Link href="/contact" legacyBehavior><a className="hover:text-gray-300">Contact</a></Link>
         </div>
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-white focus:outline-none">
+          <button onClick={toggleMenu} className=" focus:outline-none">
             {isOpen ? 'Close' : 'Menu'}
           </button>
         </div>
       </div>
       {isOpen && (
         <div className="md:hidden px-4 pt-4 pb-2 space-y-2">
-          <Link href="/" legacyBehavior><a className="block text-gray-300 hover:bg-red-600 rounded-md px-3 py-2">Home</a></Link>
-          <Link href="/about" legacyBehavior><a className="block text-gray-300 hover:bg-red-600 rounded-md px-3 py-2">About</a></Link>
-          <Link href="/services" legacyBehavior><a className="block text-gray-300 hover:bg-red-600 rounded-md px-3 py-2">Services</a></Link>
-          <Link href="/contact" legacyBehavior><a className="block text-gray-300 hover:bg-red-600 rounded-md px-3 py-2">Contact</a></Link>
+          <Link href="/" legacyBehavior><a className="block hover:bg-red-600 rounded-md px-3 py-2">Home</a></Link>
+          <Link href="/about" legacyBehavior><a className="block hover:bg-red-600 rounded-md px-3 py-2">About</a></Link>
+          <Link href="/services" legacyBehavior><a className="block hover:bg-red-600 rounded-md px-3 py-2">Services</a></Link>
+          <Link href="/contact" legacyBehavior><a className="block hover:bg-red-600 rounded-md px-3 py-2">Contact</a></Link>
         </div>
       )}
     </nav>

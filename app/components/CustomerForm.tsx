@@ -14,7 +14,7 @@ const CustomerForm = () => {
     serviceOfInterest: ''
   });
 
-  const handleChange = (e) => {
+  const handleChange = (e:any) => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
@@ -22,7 +22,7 @@ const CustomerForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e:any) => {
     e.preventDefault();
     // Handle form submission logic here
     console.log('Form data submitted:', formData);

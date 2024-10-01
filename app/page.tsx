@@ -152,7 +152,7 @@ const Home = () => {
         {/* Testimonials Section */}
         <div className="py-16 px-6 md:px-12 text-center bg-white">
           <h2 className="text-3xl md:text-5xl font-bold text-[#D32F2F] mb-6">What Our Clients Say</h2>
-          <p className="text-lg md:text-xl text-gray-600 mb-8">Our clients' success stories inspire us to keep delivering exceptional service:</p>
+          <p className="text-lg md:text-xl text-gray-600 mb-8">Our clients&apos; success stories inspire us to keep delivering exceptional service:</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               "I couldn't have asked for a better team to guide me through my immigration journey!",
@@ -160,7 +160,7 @@ const Home = () => {
               "Professional, caring, and trustworthy. Highly recommend!"
             ].map((quote, index) => (
               <div key={index} className="p-6 bg-[#F5F5F5] rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-                <p className="text-gray-700 italic">"{quote}"</p>
+                <p className="text-gray-700 italic">&quot;{quote}&quot;</p>
                 <p className="mt-2 text-gray-600 font-semibold">- Happy Client</p>
               </div>
             ))}

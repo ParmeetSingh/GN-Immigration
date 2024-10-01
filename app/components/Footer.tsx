@@ -65,7 +65,6 @@ const Footer = () => {
                 width="100%"
                 height="250" // Increased height for the map
                 style={{ border: 0 }}
-                allowFullScreen=""
                 loading="lazy"
                 title="Google Map"
               ></iframe>

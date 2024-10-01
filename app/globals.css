@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 
 
 /* .container {
@@ -9,21 +11,32 @@
   height: 100vh;
 } */
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 
 nav {
-  background-color: #F1F5EB;
-  color: white;
+  background-color: white;
   padding: 1rem;
 }
 
 .bodyContent {
   flex: 1;
   overflow-y: auto;
-  background-color: #F1F5EB;
+  background-color: white;
 }
 
 footer {
   padding: 1rem;
+}
+
+/* globals.css */
+.rcic-section {
+  background-color: #f9fafb; /* Light background */
+  border: 1px solid #e5e7eb; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Padding around the content */
+  margin-top: 20px; /* Space above the section */
 }
 

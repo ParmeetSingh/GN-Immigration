@@ -33,7 +33,6 @@ import React, { ReactNode } from 'react';
 import  "./globals.css";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
 type LayoutProps = {
   children: ReactNode;
 };

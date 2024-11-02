@@ -27,7 +27,7 @@ const Home = () => {
           </div>
         </div>
         {/* RCIC Approval Section */}
-        <section className="py-16 px-6 md:px-12 bg-white text-center">
+        <section id = 'about' className="py-16 px-6 md:px-12 bg-white text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-[#D32F2F] mb-4">We are RCIC Approved</h2>
           <p className="mt-2 text-lg md:text-xl text-gray-700 max-w-2xl mx-auto mb-4">
             Trust our expertise in immigration services, backed by the certification from the Immigration Consultants of Canada Regulatory Council.
@@ -45,7 +45,7 @@ const Home = () => {
         </section>
 
         {/* Services Section */}
-        <div className="py-16 px-6 md:px-12 text-center bg-gray-100">
+        <div id="services" className="py-16 px-6 md:px-12 text-center bg-gray-100">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-6">Our Services</h2>
           <p className="text-lg md:text-xl text-gray-600 mb-12">We offer a comprehensive range of immigration services to help you move to Canada with ease.</p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -166,7 +166,7 @@ const Home = () => {
             ))}
           </div>
         </div>
-        <div className="bg-[#F5F5F5]">
+        <div id="contact" className="bg-[#F5F5F5]">
             <CustomerForm />
         </div>
         

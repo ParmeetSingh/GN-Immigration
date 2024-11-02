@@ -26,13 +26,13 @@ const Navbar = () => {
           <Link href="/" legacyBehavior>
             <a className="hover:text-red-600 text-lg font-semibold transition duration-300">Home</a>
           </Link>
-          <Link href="/about" legacyBehavior>
+          <Link href="#about" legacyBehavior>
             <a className="hover:text-red-600 text-lg font-semibold transition duration-300">About</a>
           </Link>
-          <Link href="/services" legacyBehavior>
+          <Link href="#services" legacyBehavior>
             <a className="hover:text-red-600 text-lg font-semibold transition duration-300">Services</a>
           </Link>
-          <Link href="/contact" legacyBehavior>
+          <Link href="#contact" legacyBehavior>
             <a className="hover:text-red-600 text-lg font-semibold transition duration-300">Contact</a>
           </Link>
         </div>
@@ -49,13 +49,13 @@ const Navbar = () => {
           <Link href="/" legacyBehavior>
             <a className="block hover:bg-red-600 rounded-md px-3 py-2 text-lg font-semibold">Home</a>
           </Link>
-          <Link href="/about" legacyBehavior>
+          <Link href="#about" legacyBehavior>
             <a className="block hover:bg-red-600 rounded-md px-3 py-2 text-lg font-semibold">About</a>
           </Link>
-          <Link href="/services" legacyBehavior>
+          <Link href="#services" legacyBehavior>
             <a className="block hover:bg-red-600 rounded-md px-3 py-2 text-lg font-semibold">Services</a>
           </Link>
-          <Link href="/contact" legacyBehavior>
+          <Link href="#contact" legacyBehavior>
             <a className="block hover:bg-red-600 rounded-md px-3 py-2 text-lg font-semibold">Contact</a>
           </Link>
         </div>

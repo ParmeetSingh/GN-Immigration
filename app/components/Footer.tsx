@@ -10,31 +10,34 @@ const Footer = () => {
           <div>
             <h2 className="text-2xl font-bold border-b-2 border-red-700 pb-2 mb-4">Immigration Services</h2>
             <ul className="space-y-2">
-              <li><Link href="/work/express" legacyBehavior><a className="hover:text-red-400 transition duration-300">Express Entry</a></Link></li>
-              <li><Link href="/work/citizenship" legacyBehavior><a className="hover:text-red-400 transition duration-300">Citizenship</a></Link></li>
-              <li><Link href="/work/family" legacyBehavior><a className="hover:text-red-400 transition duration-300">Family Class Sponsorship</a></Link></li>
-              <li><Link href="/work/study" legacyBehavior><a className="hover:text-red-400 transition duration-300">Study Permit</a></Link></li>
-              <li><Link href="/work/provincial" legacyBehavior><a className="hover:text-red-400 transition duration-300">Provincial Nominee Program</a></Link></li>
-              <li><Link href="/work/work-permit" legacyBehavior><a className="hover:text-red-400 transition duration-300">Work Permit</a></Link></li>
-              <li><Link href="/work/investors" legacyBehavior><a className="hover:text-red-400 transition duration-300">Investors & Business</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Express Entry</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Citizenship</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Family Class Sponsorship</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Study Permit</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Provincial Nominee Program</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Work Permit</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Investors & Business</a></Link></li>
             </ul>
           </div>
 
           <div>
             <h2 className="text-2xl font-bold border-b-2 border-red-700 pb-2 mb-4">Company</h2>
             <ul className="space-y-2">
-              <li><Link href="/about" legacyBehavior><a className="hover:text-red-400 transition duration-300">About Us</a></Link></li>
-              <li><Link href="/why-choose-dodo" legacyBehavior><a className="hover:text-red-400 transition duration-300">Why Choose GN Immigration</a></Link></li>
-              <li><Link href="/blog" legacyBehavior><a className="hover:text-red-400 transition duration-300">Blog</a></Link></li>
-              <li><Link href="/contact" legacyBehavior><a className="hover:text-red-400 transition duration-300">Contact Us</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">About Us</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Why Choose GN Immigration</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Blog</a></Link></li>
+              <li><Link href="/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Contact Us</a></Link></li>
             </ul>
           </div>
 
           <div>
             <h2 className="text-2xl font-bold border-b-2 border-red-700 pb-2 mb-4">Connect</h2>
+            <p className="text-lg font-semibold mb-2">
+              Phone: <a href="tel:+16476461271" className="text-red-400 hover:text-red-300 transition duration-300">+1 (647) 646-1271</a>
+            </p>
             <ul className="space-y-2">
-              <li><Link href="https://facebook.com/dodoimmigration" legacyBehavior><a className="hover:text-red-400 transition duration-300">Facebook</a></Link></li>
-              <li><Link href="https://instagram.com/dodoimmigration" legacyBehavior><a className="hover:text-red-400 transition duration-300">Instagram</a></Link></li>
+              <li><Link href="https://www.instagram.com/info.gnimmigration/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Facebook</a></Link></li>
+              <li><Link href="https://www.instagram.com/info.gnimmigration/" legacyBehavior><a className="hover:text-red-400 transition duration-300">Instagram</a></Link></li>
             </ul>
             <form className="mt-6">
               <h2 className="text-lg font-semibold">Sign up for our newsletter</h2>
@@ -55,23 +58,18 @@ const Footer = () => {
             </form>
           </div>
 
-          {/* New Column for Map and Contact Info */}
           <div>
             <h2 className="text-2xl font-bold border-b-2 border-red-700 pb-2 mb-4">Our Location</h2>
-            {/* Google Map Embed */}
             <div className="mb-4">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.1216961204077!2d-79.70847204881031!3d43.70801995489933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3dd87934565f%3A0x42c8dd72a48e2421!2s15%20Ascot%20Ave%2C%20Brampton%2C%20ON%20L6T%202P3!5e0!3m2!1sen!2sca!4v1727755544857!5m2!1sen!2sca"
                 width="100%"
-                height="250" // Increased height for the map
+                height="250"
                 style={{ border: 0 }}
                 loading="lazy"
                 title="Google Map"
               ></iframe>
             </div>
-            {/* <h3 className="text-lg font-semibold">Contact Us</h3>
-            <p className="text-sm">Email: info@gnimmigration.com</p>
-            <p className="text-sm">Phone: (123) 456-7890</p> */}
           </div>
         </div>
 

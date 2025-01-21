@@ -21,7 +21,10 @@ const Home = () => {
             <h1 className="text-4xl md:text-6xl font-extrabold mb-4 drop-shadow">Let Us Help You on</h1>
             <h1 className="text-4xl md:text-6xl font-extrabold mb-6 drop-shadow">Your Journey to Canada</h1>
             <h3 className="text-lg md:text-xl mb-6 drop-shadow">Unlock your new life in Canada with us - your passport to a brighter future.</h3>
-            <Link href="/get-started">
+            <p className="text-lg md:text-xl font-semibold mb-4">
+      Have questions? <span className="block md:inline">Call us at <a href="tel:+16476461271" className="underline text font-extrabold">+1 (647) 646-1271</a></span>
+    </p>
+            <Link href="#contact">
               <button className="mt-4 px-8 py-3 bg-[#D32F2F] text-white rounded-full hover:bg-[#B71C1C] transition-all duration-300 shadow-lg">Get Started</button>
             </Link>
           </div>

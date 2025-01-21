@@ -154,24 +154,36 @@ const Home = () => {
 
         {/* Testimonials Section */}
         <div className="py-16 px-6 md:px-12 text-center bg-white">
-          <h2 className="text-3xl md:text-5xl font-bold text-[#D32F2F] mb-6">What Our Clients Say</h2>
-          <p className="text-lg md:text-xl text-gray-600 mb-8">Our clients&apos; success stories inspire us to keep delivering exceptional service:</p>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              "I couldn't have asked for a better team to guide me through my immigration journey!",
-              "Thanks to their expertise, I am now living my dream in Canada.",
-              "Professional, caring, and trustworthy. Highly recommend!"
-            ].map((quote, index) => (
-              <div key={index} className="p-6 bg-[#F5F5F5] rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
-                <p className="text-gray-700 italic">&quot;{quote}&quot;</p>
-                <p className="mt-2 text-gray-600 font-semibold">- Happy Client</p>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div id="contact" className="bg-[#F5F5F5]">
-            <CustomerForm />
-        </div>
+  <h2 className="text-3xl md:text-5xl font-bold text-[#D32F2F] mb-6">What Our Clients Say</h2>
+  <p className="text-lg md:text-xl text-gray-600 mb-8">
+    Our clients&apos; success stories inspire us to keep delivering exceptional service:
+  </p>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    {[
+      {
+        text: "I have had an amazing experience with GN immigration. Until now I have done multiple applications with them and my experience has been outstanding in each one. I will recommend GN immigration 100% to my friends and family.",
+        name: "Darpandeep Kaur"
+      },
+      {
+        text: "Great service. They are very professional in their job. They helped me in my express entry profile.I reckon manjot is one of the best immigration lawyer I have ever deal with.",
+        name: "Tanveer Birdi"
+      },
+      {
+        text: "Amazing service! I got my visitor visa after a rejection. Very helpful.",
+        name: "Dilpreet Kaur"
+      },
+    ].map((review, index) => (
+      <div
+        key={index}
+        className="p-6 bg-[#F5F5F5] rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+      >
+        <p className="text-gray-700 italic">&quot;{review.text}&quot;</p>
+        <p className="mt-2 text-gray-600 font-semibold">- {review.name}</p>
+      </div>
+    ))}
+  </div>
+</div>
+
         
       </main>
     </div>
